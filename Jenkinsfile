@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('erstelle substies') {
       steps {
-        sh '/var/lib/jenkins/2BL/configfile/create_substies.sh $SPIELNUMMER $HEIM $GAST'
+        sh 'echo "[${SPIELNUMMER}_subst_dresser >> /var/lib/jenkins/2BL/configfile/fb98.cfg'
       }
     }
 
