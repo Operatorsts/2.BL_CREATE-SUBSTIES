@@ -12,8 +12,8 @@ pipeline {
 
   }
   environment {
-    SPIELNUMMER = '1111'
-    HEIM = '44=1 55=44'
-    GAST = '66=1 '
+    SPIELNUMMER = '555'
+    HEIM = '44=22 55=88'
+    GAST = 'empty'
   }
 }
