@@ -10,7 +10,7 @@ pipeline {
   }
   environment {
     SPIELNUMMER = '1111'
-    HEIM = '44=1 55=44'
+    HEIM = '"44=1 55=44"'
     GAST = '66=1 '
   }
 }
